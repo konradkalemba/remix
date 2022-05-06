@@ -16,5 +16,11 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "dependencies": {
+    "@remix-run/deno": "*",
+    "@remix-run/react": "*",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   }
 }
