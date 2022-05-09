@@ -83,6 +83,7 @@ export function serverBareModulesPlugin(
           // Always bundle everything for cloudflare.
           case "cloudflare-pages":
           case "cloudflare-workers":
+          case "deno":
             return undefined;
         }
 
